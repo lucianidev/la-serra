@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="./assets/css/bootstrap.css" rel="stylesheet" >
+  <link
+  rel="stylesheet"
+  href="./assets/css/animate.css"
+/>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/icons/favicon-16x16.png">
+  <link rel="manifest" href="./assets/img/icons/site.webmanifest">
+  <link rel="mask-icon" href="./assets/img/icons/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <meta name="title" content="La serra eventi green">
+  <meta name="description"
+    content="La Serra è una location per eventi originale e innovativa, un luogo incantato con un'architettura unica che unisce sapientemente la luminosità del vetro e il verde della vegetazione, per offrire ai propri ospiti atmosfere raffinate e una cornice speciale per eventi in natura">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="author" content="luciani.dev">
+  <style>
+    .serif {
+      font-family: "Source Serif 4", serif;
+      font-optical-sizing: auto;
+      font-weight: 800;
+      font-style: normal;
+    }
+
+    .work-sans-regular {
+      font-family: "Work Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    /* CSS */
+    .button-23 {
+      background-color: #FFFFFF;
+      border: 1px solid #222222;
+      border-radius: 8px;
+      box-sizing: border-box;
+      color: #222222;
+      cursor: pointer;
+      display: inline-block;
+      font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 20px;
+      margin: 0;
+      outline: none;
+      padding: 13px 23px;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      touch-action: manipulation;
+      transition: box-shadow .2s, -ms-transform .1s, -webkit-transform .1s, transform .1s;
+      user-select: none;
+      -webkit-user-select: none;
+      width: auto;
+    }
+
+    .button-23:focus-visible {
+      box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+      transition: box-shadow .2s;
+    }
+
+    .button-23:active {
+      background-color: #F7F7F7;
+      border-color: #000000;
+      transform: scale(.96);
+    }
+
+    .button-23:disabled {
+      border-color: #DDDDDD;
+      color: #DDDDDD;
+      cursor: not-allowed;
+      opacity: 1;
+    }
+  </style>
+  <title>La serra - Eventi Green</title>
+</head>
+
+<body class="work-sans-regular">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary p-2 jutify-content-space-between">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#home" role="link" aria-label="vai alla home">
+        <img width="128" height="84" sizes="(max-width: 1400px) 100vw, 1400px" srcset="
+        ./assets/img/logo-min_dh7dji_c_scale,w_200.png 200w,
+        ./assets/img/logo-min_dh7dji_c_scale,w_993.png 993w,
+        ./assets/img/logo-min_dh7dji_c_scale,w_1400.png 1400w" src="./assets/img/logo-min_dh7dji_c_scale,w_1400.png"
+          alt="" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <style>
+          .navbar-nav {
+            margin-left: auto;
+          }
+        </style>
+        <ul class="navbar-nav">
+          <li class="nav-item nav-font-size">
+            <a class="nav-link active nav-font-size"  aria-current="page" href="#home">Home</a>
+          </li>
+
+          <li class="nav-item nav-font-size">
+            <a class="nav-link active" aria-current="page" href="#about">Chi siamo?</a>
+          </li>
+
+          <li class="nav-item nav-font-size">
+            <a class="nav-link active" aria-current="page" href="#servizi">Servizi</a>
+          </li>
+
+          <li class="nav-item nav-font-size">
+            <a class="nav-link active" aria-current="page" href="#galleria">Galleria</a>
+          </li>
+
+          <li class="nav-item nav-font-size">
+            <a class="nav-link active " aria-current="page" href="#contatti">Contatti</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid overflow-hidden p-0" id="home">
+    <div class="row g-0">
+      <div class="col-md-6 order-md-2">
+        <div class="lc-block">
+          <img id="slideshow" class="w-100 min-vh-md-50 animate__animated animate__fadeInUp"sizes="(max-width: 1920px) 100vw, 1920px"
+          srcset="
+          ./assets/img/Serra-149-min_afx4ze_c_scale,w_200.webp 200w,
+          ./assets/img/Serra-149-min_afx4ze_c_scale,w_373.webp 373w,
+          ./assets/img/Serra-149-min_afx4ze_c_scale,w_452.webp 452w,
+          ./assets/img/Serra-149-min_afx4ze_c_scale,w_567.webp 567w,
+          ./assets/img/Serra-149-min_afx4ze_c_scale,w_667.webp 667w,
+          ./assets/img/Serra-149-min_afx4ze_c_scale,w_766.webp 766w,
+          ./assets/img/Serra-149-min_afx4ze_c_scale,w_845.webp 845w,
+          ./assets/img/Serra-149-min_afx4ze_c_scale,w_869.webp 869w,
+          ./assets/img/Serra-149-min_afx4ze_c_scale,w_880.webp 880w,
+          ./assets/img/Serra-149-min_afx4ze_c_scale,w_935.webp 935w,
+          ./assets/img/Serra-149-min_afx4ze_c_scale,w_1197.webp 1197w,
+          ./assets/img/Serra-149-min_afx4ze_c_scale,w_1260.webp 1260w,
+          ./assets/img/Serra-149-min_afx4ze_c_scale,w_1307.webp 1307w,
+          ./assets/img/Serra-149-min_afx4ze_c_scale,w_1374.webp 1374w,
+          ./assets/img/Serra-149-min_afx4ze_c_scale,w_1399.webp 1399w,
+          ./assets/img/Serra-149-min_afx4ze_c_scale,w_1400.webp 1400w"
+          src="./assets/img/Serra-149-min_afx4ze_c_scale,w_1400.webp"alt="" width="1000" height="710"
+            style="object-fit: cover; object-position: center" />
+        </div>
+      </div>
+      <div class="col-md-6 order-md-1 my-auto" style="padding: 10vw">
+        <div class="lc-block mb-3">
+          <div editable="rich">
+            <h2 class="serif green-text display-5 animate__animated animate__fadeInUp">LA SERRA<br> EVENTI GREEN</h2>
+            <p class="lead animate__animated animate__fadeInUp">
+              NATURA E ARCHITETTURA - VIA DI VILLA SENNI, SNC, 00046 -
+              GROTTAFERRATA
+            </p>
+          </div>
+        </div>
+        <!--<img class="w-100 animation img-fluid rounded mb-4 scroll-animation" alt="Photo by Nathan Dumlao" sizes="(max-width: 1400px) 100vw, 1400px" srcset="
+./assets/img/Serra-149-min_afx4ze_c_scale,w_200.webp 200w,
+./assets/img/Serra-149-min_afx4ze_c_scale,w_373.webp 373w,
+./assets/img/Serra-149-min_afx4ze_c_scale,w_452.webp 452w,
+./assets/img/Serra-149-min_afx4ze_c_scale,w_567.webp 567w,
+./assets/img/Serra-149-min_afx4ze_c_scale,w_667.webp 667w,
+./assets/img/Serra-149-min_afx4ze_c_scale,w_766.webp 766w,
+./assets/img/Serra-149-min_afx4ze_c_scale,w_845.webp 845w,
+./assets/img/Serra-149-min_afx4ze_c_scale,w_869.webp 869w,
+./assets/img/Serra-149-min_afx4ze_c_scale,w_880.webp 880w,
+./assets/img/Serra-149-min_afx4ze_c_scale,w_935.webp 935w,
+./assets/img/Serra-149-min_afx4ze_c_scale,w_1197.webp 1197w,
+./assets/img/Serra-149-min_afx4ze_c_scale,w_1260.webp 1260w,
+./assets/img/Serra-149-min_afx4ze_c_scale,w_1307.webp 1307w,
+./assets/img/Serra-149-min_afx4ze_c_scale,w_1374.webp 1374w,
+./assets/img/Serra-149-min_afx4ze_c_scale,w_1399.webp 1399w,
+./assets/img/Serra-149-min_afx4ze_c_scale,w_1400.webp 1400w" src="./assets/img/Serra-149-min_afx4ze_c_scale,w_1400.webp" width="1080" height="" loading="lazy">-->
+
+        <div class="lc-block">
+          <a class="button-23" href="#about" role="button">Scopri</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container py-9" id="about">
+    <div class="row align-items-center flex-md-row-reverse">
+      <div class="col-md-6">
+        <div class="lc-block m-5">
+          <div editable="rich">
+            <h2 class="fw-bold display-5 serif animation  green-text">Chi siamo?</h2>
+          </div>
+        </div>
+        <div class="lc-block m-5">
+          <div editable="rich">
+            <p class="lead text-muted animation">
+              La Serra è una location per eventi originale e innovativa, un luogo incantato con un'architettura unica
+              che unisce sapientemente la luminosità del vetro e il verde della vegetazione, per offrire ai propri
+              ospiti atmosfere raffinate e una cornice speciale per eventi in natura
+            </p>
+          </div>
+        </div>
+
+        <div class="lc-block m-5">
+          <div editable="rich">
+            <a class="button-23" href="#contatti" role="button">Dove siamo?</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 d-flex gap-4">
+        <div class="col">
+          <div class="lc-block">
+            <img class="img-fluid animation" sizes="(max-width: 1400px) 100vw, 1400px" srcset="
+                ./assets/img/Serra-45-min_idsy9e_c_scale,w_200.webp 200w,
+                ./assets/img/Serra-45-min_idsy9e_c_scale,w_370.webp 370w,
+                ./assets/img/Serra-45-min_idsy9e_c_scale,w_464.webp 464w,
+                ./assets/img/Serra-45-min_idsy9e_c_scale,w_550.webp 550w,
+                ./assets/img/Serra-45-min_idsy9e_c_scale,w_649.webp 649w,
+                ./assets/img/Serra-45-min_idsy9e_c_scale,w_747.webp 747w,
+                ./assets/img/Serra-45-min_idsy9e_c_scale,w_817.webp 817w,
+                ./assets/img/Serra-45-min_idsy9e_c_scale,w_848.webp 848w,
+                ./assets/img/Serra-45-min_idsy9e_c_scale,w_871.webp 871w,
+                ./assets/img/Serra-45-min_idsy9e_c_scale,w_941.webp 941w,
+                ./assets/img/Serra-45-min_idsy9e_c_scale,w_1007.webp 1007w,
+                ./assets/img/Serra-45-min_idsy9e_c_scale,w_1066.webp 1066w,
+                ./assets/img/Serra-45-min_idsy9e_c_scale,w_1143.webp 1143w,
+                ./assets/img/Serra-45-min_idsy9e_c_scale,w_1206.webp 1206w,
+                ./assets/img/Serra-45-min_idsy9e_c_scale,w_1258.webp 1258w,
+                ./assets/img/Serra-45-min_idsy9e_c_scale,w_1330.webp 1330w,
+                ./assets/img/Serra-45-min_idsy9e_c_scale,w_1395.webp 1395w,
+                ./assets/img/Serra-45-min_idsy9e_c_scale,w_1400.webp 1400w"
+              src="./assets/img/Serra-45-min_idsy9e_c_scale,w_1400.webp" width="1080" height="" loading="lazy"
+              alt="Photo by Rikonavt" />
+          </div>
+          <div class="lc-block my-4 bg-dark bg-opacity-10" style="min-height: 256px">
+            <!-- Use the panel to resize or change the color of this LC-block -->
+          </div>
+        </div>
+        <div class="col">
+          <div class="lc-block my-4 bg-dark bg-opacity-10" style="min-height: 256px">
+            <!-- resize this lc-block or change the color using the panel -->
+          </div>
+          <div class="lc-block">
+            <img class="img-fluid animation" sizes="(max-width: 1400px) 100vw, 1400px" srcset="
+                ./assets/img/Serra-50-min_wttq46_c_scale,w_200.webp 200w,
+                ./assets/img/Serra-50-min_wttq46_c_scale,w_409.webp 409w,
+                ./assets/img/Serra-50-min_wttq46_c_scale,w_582.webp 582w,
+                ./assets/img/Serra-50-min_wttq46_c_scale,w_683.webp 683w,
+                ./assets/img/Serra-50-min_wttq46_c_scale,w_793.webp 793w,
+                ./assets/img/Serra-50-min_wttq46_c_scale,w_897.webp 897w,
+                ./assets/img/Serra-50-min_wttq46_c_scale,w_994.webp 994w,
+                ./assets/img/Serra-50-min_wttq46_c_scale,w_1063.webp 1063w,
+                ./assets/img/Serra-50-min_wttq46_c_scale,w_1121.webp 1121w,
+                ./assets/img/Serra-50-min_wttq46_c_scale,w_1190.webp 1190w,
+                ./assets/img/Serra-50-min_wttq46_c_scale,w_1269.webp 1269w,
+                ./assets/img/Serra-50-min_wttq46_c_scale,w_1292.webp 1292w,
+                ./assets/img/Serra-50-min_wttq46_c_scale,w_1338.webp 1338w,
+                ./assets/img/Serra-50-min_wttq46_c_scale,w_1399.webp 1399w,
+                ./assets/img/Serra-50-min_wttq46_c_scale,w_1400.webp 1400w" loading="lazy"
+              src="./assets/img/Serra-50-min_wttq46_c_scale,w_1400.webp" width="1080" height=""
+              alt="Photo by Europeana" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="servizi" class="container py-4 py-md-6" >
+    <div class="row mb-4">
+      <div class="col-md-12">
+        <div class="lc-block text-center mb-4">
+          <div editable="rich">
+            <h2 class="display-2 fw-bolder green-text serif">Servizi</h2>
+          </div>
+        </div>
+        <div class="lc-block text-center">
+          <div editable="rich">
+            <p class="lead">La nostra vasta gamma di servizi solo per te</p>
+          </div>
+        </div>
+        <!-- /lc-block -->
+      </div>
+      <!-- /col -->
+    </div>
+    <div class="row">
+      <div class="col-12 animation col-md-6 col-xl-3 mb-4">
+        <div class="lc-block text-center">
+          <div
+            class="lc-block rounded-circle d-flex justify-content-center align-items-center mx-auto mb-4 bg-light bg-light"
+            style="width: 72px; height: 72px">
+            <img src="./assets/img/nuove/smile-hand-drawn-emoticon.png" alt="">
+          </div>
+          <div class="lc-block">
+            <div editable="rich">
+              <h5 class="">Un evento solo per te</h5>
+              <p class="text-muted">
+                Amiamo ascoltare il nostro cliente con attenzione per poi capire insieme come realizzare l'evento che
+                desidera
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 animation col-md-6 col-xl-3 mb-4 ">
+        <div class="lc-block text-center">
+          <div class="lc-block rounded-circle d-flex justify-content-center align-items-center mx-auto mb-4 "
+            style="width: 72px; height: 72px">
+            <img
+            src="./assets/img/nuove/2.png"
+            />
+          </div>
+          <div class="lc-block">
+            <div editable="rich">
+              <h5 class="green-text">Cucina unica</h5>
+              <p class="text-muted">
+                I nostri fornitori speciali sono uniti da un fil rouge all'insegna dell'etica e del rispetto della natura
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 animation col-md-6 col-xl-3 mb-4">
+        <div class="lc-block text-center">
+          <div class="lc-block rounded-circle d-flex justify-content-center align-items-center mx-auto mb-4 bg-light"
+            style="width: 72px; height: 72px">
+            <img src="./assets/img/nuove/musical-note.png" alt="">
+          </div>
+          <div class="lc-block">
+            <div editable="rich">
+              <h5 class="">Musica</h5>
+              <p class="text-muted">
+                Scegli tra una vasta gamma di generi musicali o richiedi un repertorio su misura per i tuoi gusti
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 animation col-md-6 col-xl-3 mb-4">
+        <div class="lc-block text-center">
+          <div class="lc-block rounded-circle d-flex justify-content-center align-items-center mx-auto mb-4 bg-light"
+            style="width: 72px; height: 72px">
+            <img src="./assets/img/nuove/location-pin-hand-drawn-sign.png" alt="">
+          </div>
+          <div class="lc-block">
+            <div editable="rich">
+              <h5 class="">Location unica</h5>
+              <p class="text-muted">
+                I nostri spazi verdi sono caratterizzati da suggestioni particolari che renderanno il tuo evento
+                memorabile
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 animation col-md-6 col-xl-3 text-center">
+          <div class="lc-block text-center">
+            <div class="lc-block rounded-circle d-flex justify-content-center align-items-center mx-auto mb-4 bg-light"
+              style="width: 72px; height: 72px">
+              <img src="./assets/img/nuove/video-camera-hand-drawn-interface-symbol-outline.png" alt="">
+            </div>
+            <div class="lc-block">
+              <div editable="rich">
+                <h5 class="">Supporto audio/video</h5>
+                <p class="text-muted">
+                  Immergiti in un mondo di immagini e suoni con le tecnologie audio/video all'avanguardia della nostra
+                  location
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 animation col-md-6 col-xl-3 text-center">
+          <div class="lc-block text-center">
+            <div class="lc-block rounded-circle d-flex justify-content-center align-items-center mx-auto mb-4 bg-light"
+              style="width: 72px; height: 72px">
+              <img src="./assets/img/nuove/7.png" alt="">
+            </div>
+            <div class="lc-block">
+              <div editable="rich">
+                <h5 class="">Luci</h5>
+                <p class="text-muted">
+                  La nostra location vanta un sistema di illuminazione he permette di creare atmosfere suggestive e personalizzate per ogni tipo di evento
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div id="galleria" class="container-fluid py-5 bg-light">
+    <div class="container py-5">
+      <div class="lc-block m-5">
+        <div editable="rich">
+          <h2 class="fw-bold display-5 serif text-center green-text">Galleria</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+          <img class="w-100 animation  img-fluid rounded mb-4" alt="Photo by Marc Pell" sizes="(max-width: 1400px) 100vw, 1400px" srcset="
+          ./assets/img/Serra-55-min_vdc2qs_c_scale,w_200.webp 200w,
+          ./assets/img/Serra-55-min_vdc2qs_c_scale,w_399.webp 399w,
+          ./assets/img/Serra-55-min_vdc2qs_c_scale,w_492.webp 492w,
+          ./assets/img/Serra-55-min_vdc2qs_c_scale,w_595.webp 595w,
+          ./assets/img/Serra-55-min_vdc2qs_c_scale,w_684.webp 684w,
+          ./assets/img/Serra-55-min_vdc2qs_c_scale,w_777.webp 777w,
+          ./assets/img/Serra-55-min_vdc2qs_c_scale,w_845.webp 845w,
+          ./assets/img/Serra-55-min_vdc2qs_c_scale,w_855.webp 855w,
+          ./assets/img/Serra-55-min_vdc2qs_c_scale,w_900.webp 900w,
+          ./assets/img/Serra-55-min_vdc2qs_c_scale,w_971.webp 971w,
+          ./assets/img/Serra-55-min_vdc2qs_c_scale,w_1041.webp 1041w,
+          ./assets/img/Serra-55-min_vdc2qs_c_scale,w_1101.webp 1101w,
+          ./assets/img/Serra-55-min_vdc2qs_c_scale,w_1163.webp 1163w,
+          ./assets/img/Serra-55-min_vdc2qs_c_scale,w_1223.webp 1223w,
+          ./assets/img/Serra-55-min_vdc2qs_c_scale,w_1285.webp 1285w,
+          ./assets/img/Serra-55-min_vdc2qs_c_scale,w_1378.webp 1378w,
+          ./assets/img/Serra-55-min_vdc2qs_c_scale,w_1395.webp 1395w,
+          ./assets/img/Serra-55-min_vdc2qs_c_scale,w_1400.webp 1400w" src="Serra-55-min_vdc2qs_c_scale,w_1400.webp" width="1080" height="768" loading="lazy">
+
+          <img class="w-100 animation  img-fluid rounded mb-4" alt="Photo by Federico Bottos"
+            sizes="(max-width: 1400px) 100vw, 1400px" srcset="
+            ./assets/img/nuove/DSC_8483_3_aimm6y_c_scale,w_200.webp 200w,
+            ./assets/img/nuove/DSC_8483_3_aimm6y_c_scale,w_389.webp 389w,
+            ./assets/img/nuove/DSC_8483_3_aimm6y_c_scale,w_487.webp 487w,
+            ./assets/img/nuove/DSC_8483_3_aimm6y_c_scale,w_581.webp 581w,
+            ./assets/img/nuove/DSC_8483_3_aimm6y_c_scale,w_684.webp 684w,
+            ./assets/img/nuove/DSC_8483_3_aimm6y_c_scale,w_780.webp 780w,
+            ./assets/img/nuove/DSC_8483_3_aimm6y_c_scale,w_849.webp 849w,
+            ./assets/img/nuove/DSC_8483_3_aimm6y_c_scale,w_852.webp 852w,
+            ./assets/img/nuove/DSC_8483_3_aimm6y_c_scale,w_979.webp 979w,
+            ./assets/img/nuove/DSC_8483_3_aimm6y_c_scale,w_1198.webp 1198w,
+            ./assets/img/nuove/DSC_8483_3_aimm6y_c_scale,w_1088.webp 1088w,
+            ./assets/img/nuove/DSC_8483_3_aimm6y_c_scale,w_1381.webp 1381w,
+            ./assets/img/nuove/DSC_8483_3_aimm6y_c_scale,w_1395.webp 1395w,
+            ./assets/img/nuove/DSC_8483_3_aimm6y_c_scale,w_1400.webp 1400w
+"
+            src="./assets/img/nuove/DSC_8483_3_aimm6y_c_scale,w_1400.webp" width="1080" height="" loading="lazy" />
+       
+            <img class="w-100 animation  img-fluid rounded mb-4" alt="Photo by Matthew Smith"
+            sizes="(max-width: 1400px) 100vw, 1400px" srcset="
+            ./assets/img/nuove/IMG_1515_iqvwx9_c_scale,w_200.webp 200w,
+
+            ./assets/img/nuove/IMG_1515_iqvwx9_c_scale,w_487.webp 487w,
+            
+            ./assets/img/nuove/IMG_1515_iqvwx9_c_scale,w_656.webp 656w,
+            
+            ./assets/img/nuove/IMG_1515_iqvwx9_c_scale,w_788.webp 788w,
+            
+            ./assets/img/nuove/IMG_1515_iqvwx9_c_scale,w_939.webp 939w,
+            
+            ./assets/img/nuove/IMG_1515_iqvwx9_c_scale,w_1085.webp 1085w,
+            
+            ./assets/img/nuove/IMG_1515_iqvwx9_c_scale,w_1216.webp 1216w,
+            
+            ./assets/img/nuove/IMG_1515_iqvwx9_c_scale,w_1291.webp 1291w,
+            
+            ./assets/img/nuove/IMG_1515_iqvwx9_c_scale,w_1337.webp 1337w,
+            
+            ./assets/img/nuove/IMG_1515_iqvwx9_c_scale,w_1390.webp 1390w,
+            
+            ./assets/img/nuove/IMG_1515_iqvwx9_c_scale,w_1400.webp 1400w"
+            src="./assets/img/nuove/IMG_1515_iqvwx9_c_scale,w_1400.webp" width="1080" height="768" loading="lazy" />
+          
+
+            <img class="w-100 animation  img-fluid rounded mb-4" alt="Photo by Matthew Smith"
+            sizes="(max-width: 1400px) 100vw, 1400px" srcset="
+            ./assets/img/nuove/IMG_1514_b3sz6m_c_scale,w_200.webp 200w,
+
+            ./assets/img/nuove/IMG_1514_b3sz6m_c_scale,w_459.webp 459w,
+            
+            ./assets/img/nuove/IMG_1514_b3sz6m_c_scale,w_621.webp 621w,
+            
+            ./assets/img/nuove/IMG_1514_b3sz6m_c_scale,w_812.webp 812w,
+            
+            ./assets/img/nuove/IMG_1514_b3sz6m_c_scale,w_896.webp 896w,
+            
+            ./assets/img/nuove/IMG_1514_b3sz6m_c_scale,w_1002.webp 1002w,
+            
+            ./assets/img/nuove/IMG_1514_b3sz6m_c_scale,w_1137.webp 1137w,
+            
+            ./assets/img/nuove/IMG_1514_b3sz6m_c_scale,w_1260.webp 1260w,
+            
+            ./assets/img/nuove/IMG_1514_b3sz6m_c_scale,w_1371.webp 1371w,
+            
+            ./assets/img/nuove/IMG_1514_b3sz6m_c_scale,w_1396.webp 1396w,
+            
+            ./assets/img/nuove/IMG_1514_b3sz6m_c_scale,w_1400.webp 1400w"
+            src="./assets/img/Serra-135-min_qgxolp_c_scale,w_1400.webp" width="1080" height="768" loading="lazy" />
+
+            <img class="w-100 animation  img-fluid rounded mb-4" alt="Photo by Matthew Smith"
+            sizes="(max-width: 1400px) 100vw, 1400px" srcset="
+            ./assets/img/IMG_1508_mejss8_c_scale,w_200.webp 200w,
+
+            ./assets/img/IMG_1508_mejss8_c_scale,w_455.webp 455w,
+            
+            ./assets/img/IMG_1508_mejss8_c_scale,w_618.webp 618w,
+            
+            ./assets/img/IMG_1508_mejss8_c_scale,w_719.webp 719w,
+            
+            ./assets/img/IMG_1508_mejss8_c_scale,w_847.webp 847w,
+            
+            ./assets/img/IMG_1508_mejss8_c_scale,w_968.webp 968w,
+            
+            ./assets/img/IMG_1508_mejss8_c_scale,w_1086.webp 1086w,
+            
+            ./assets/img/IMG_1508_mejss8_c_scale,w_1207.webp 1207w,
+            
+            ./assets/img/IMG_1508_mejss8_c_scale,w_1313.webp 1313w,
+            
+            ./assets/img/IMG_1508_mejss8_c_scale,w_1349.webp 1349w,
+            
+            ./assets/img/IMG_1508_mejss8_c_scale,w_1422.webp 1422w,
+            
+            ./assets/img/IMG_1508_mejss8_c_scale,w_1442.webp 1442w,
+            
+            ./assets/img/IMG_1508_mejss8_c_scale,w_1530.webp 1530w,
+            
+            ./assets/img/IMG_1508_mejss8_c_scale,w_1618.webp 1618w,
+            
+            ./assets/img/IMG_1508_mejss8_c_scale,w_1712.webp 1712w,
+            
+            ./assets/img/IMG_1508_mejss8_c_scale,w_1799.webp 1799w,
+            
+            ./assets/img/IMG_1508_mejss8_c_scale,w_1878.webp 1878w,
+            
+            ./assets/img/IMG_1508_mejss8_c_scale,w_1913.webp 1913w,
+            
+            ./assets/img/IMG_1508_mejss8_c_scale,w_1920.webp 1920w"
+            src="./assets/img/IMG_1508_mejss8_c_scale,w_1920.webp" width="1080" height="768" loading="lazy" />
+          
+          
+          </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <img class="w-100 animation  img-fluid rounded mb-4" alt="Photo by Nathan Dumlao"
+            sizes="(max-width: 1400px) 100vw, 1400px"           srcset="
+            ./assets/img/Serra-45-min_idsy9e_c_scale,w_370.webp 370w,
+            ./assets/img/Serra-45-min_idsy9e_c_scale,w_464.webp 464w,
+            ./assets/img/Serra-45-min_idsy9e_c_scale,w_550.webp 550w,
+            ./assets/img/Serra-45-min_idsy9e_c_scale,w_649.webp 649w,
+            ./assets/img/Serra-45-min_idsy9e_c_scale,w_747.webp 747w,
+            ./assets/img/Serra-45-min_idsy9e_c_scale,w_817.webp 817w,
+            ./assets/img/Serra-45-min_idsy9e_c_scale,w_848.webp 848w,
+            ./assets/img/Serra-45-min_idsy9e_c_scale,w_871.webp 871w,
+            ./assets/img/Serra-45-min_idsy9e_c_scale,w_941.webp 941w,
+            ./assets/img/Serra-45-min_idsy9e_c_scale,w_1007.webp 1007w,
+            ./assets/img/Serra-45-min_idsy9e_c_scale,w_1066.webp 1066w,
+            ./assets/img/Serra-45-min_idsy9e_c_scale,w_1143.webp 1143w,
+            ./assets/img/Serra-45-min_idsy9e_c_scale,w_1206.webp 1206w,
+            ./assets/img/Serra-45-min_idsy9e_c_scale,w_1258.webp 1258w,
+            ./assets/img/Serra-45-min_idsy9e_c_scale,w_1330.webp 1330w,
+            ./assets/img/Serra-45-min_idsy9e_c_scale,w_1395.webp 1395w,
+            ./assets/img/Serra-45-min_idsy9e_c_scale,w_1400.webp 1400w"
+            src="./assets/img/Serra-45-min_idsy9e_c_scale,w_1400.webp" width="1080" height="" loading="lazy" />
+
+          <img class="w-100 animation  img-fluid rounded mb-4" alt="Photo by Matthew Smith"
+            sizes="(max-width: 1400px) 100vw, 1400px" srcset="
+            assets/img/nuove/DSC_8531_nuphua_c_scale,w_200.webp 200w,
+
+            assets/img/nuove/DSC_8531_nuphua_c_scale,w_408.webp 408w,
+            
+            assets/img/nuove/DSC_8531_nuphua_c_scale,w_557.webp 557w,
+            
+            assets/img/nuove/DSC_8531_nuphua_c_scale,w_639.webp 639w,
+            
+            assets/img/nuove/DSC_8531_nuphua_c_scale,w_741.webp 741w,
+            
+            assets/img/nuove/DSC_8531_nuphua_c_scale,w_827.webp 827w,
+            
+            assets/img/nuove/DSC_8531_nuphua_c_scale,w_934.webp 934w,
+            
+            assets/img/nuove/DSC_8531_nuphua_c_scale,w_1012.webp 1012w,
+            
+            assets/img/nuove/DSC_8531_nuphua_c_scale,w_1039.webp 1039w,
+            
+            assets/img/nuove/DSC_8531_nuphua_c_scale,w_1120.webp 1120w,
+            
+            assets/img/nuove/DSC_8531_nuphua_c_scale,w_1161.webp 1161w,
+            
+            assets/img/nuove/DSC_8531_nuphua_c_scale,w_1238.webp 1238w,
+            
+            assets/img/nuove/DSC_8531_nuphua_c_scale,w_1257.webp 1257w,
+            
+            assets/img/nuove/DSC_8531_nuphua_c_scale,w_1324.webp 1324w,
+            
+            assets/img/nuove/DSC_8531_nuphua_c_scale,w_1390.webp 1390w,
+            
+            assets/img/nuove/DSC_8531_nuphua_c_scale,w_1399.webp 1399w,
+            
+            assets/img/nuove/DSC_8531_nuphua_c_scale,w_1400.webp 1400w"
+            src="assets/img/nuove/DSC_8531_nuphua_c_scale,w_1400.webp" width="1080" height="768" loading="lazy" />
+
+            <img class="w-100 animation  img-fluid rounded mb-4" alt="Photo by Federico Bottos"
+            sizes="(max-width: 1400px) 100vw, 1400px" srcset="
+            ./assets/img/nuove/IMG_1489_lhf96j_c_scale,w_200.webp 200w,
+
+            ./assets/img/nuove/IMG_1489_lhf96j_c_scale,w_397.webp 397w,
+            
+            ./assets/img/nuove/IMG_1489_lhf96j_c_scale,w_565.webp 565w,
+            
+            ./assets/img/nuove/IMG_1489_lhf96j_c_scale,w_653.webp 653w,
+            
+            ./assets/img/nuove/IMG_1489_lhf96j_c_scale,w_776.webp 776w,
+            
+            ./assets/img/nuove/IMG_1489_lhf96j_c_scale,w_899.webp 899w,
+            
+            ./assets/img/nuove/IMG_1489_lhf96j_c_scale,w_1007.webp 1007w,
+            
+            ./assets/img/nuove/IMG_1489_lhf96j_c_scale,w_1126.webp 1126w,
+            
+            ./assets/img/nuove/IMG_1489_lhf96j_c_scale,w_1233.webp 1233w,
+            
+            ./assets/img/nuove/IMG_1489_lhf96j_c_scale,w_1348.webp 1348w,
+            
+            ./assets/img/nuove/IMG_1489_lhf96j_c_scale,w_1394.webp 1394w,
+            
+            ./assets/img/nuove/IMG_1489_lhf96j_c_scale,w_1395.webp 1395w,
+            
+            ./assets/img/nuove/IMG_1489_lhf96j_c_scale,w_1396.webp 1396w,
+            
+            ./assets/img/nuove/IMG_1489_lhf96j_c_scale,w_1400.webp 1400w"
+            src="./assets/img/nuove/IMG_1489_lhf96j_c_scale,w_1400.webp" width="1080" height="" loading="lazy" />
+        
+        
+            <img class="w-100 animation  img-fluid rounded mb-4" alt="Photo by Matthew Smith" sizes="(max-width: 1400px) 100vw, 1400px" srcset="
+            ./assets/img/Serra-135-min_qgxolp_c_scale,w_200.webp 200w,
+            ./assets/img/Serra-135-min_qgxolp_c_scale,w_466.webp 466w,
+            ./assets/img/Serra-135-min_qgxolp_c_scale,w_769.webp 769w,
+            ./assets/img/Serra-135-min_qgxolp_c_scale,w_774.webp 774w,
+            ./assets/img/Serra-135-min_qgxolp_c_scale,w_912.webp 912w,
+            ./assets/img/Serra-135-min_qgxolp_c_scale,w_1044.webp 1044w,
+            ./assets/img/Serra-135-min_qgxolp_c_scale,w_1215.webp 1215w,
+            ./assets/img/Serra-135-min_qgxolp_c_scale,w_1261.webp 1261w,
+            ./assets/img/Serra-135-min_qgxolp_c_scale,w_1287.webp 1287w,
+            ./assets/img/Serra-135-min_qgxolp_c_scale,w_1392.webp 1392w,
+            ./assets/img/Serra-135-min_qgxolp_c_scale,w_1400.webp 1400w" src="./assets/img/Serra-135-min_qgxolp_c_scale,w_1400.webp" width="1080" height="768" loading="lazy">
+          
+          
+            <img class="w-100 animation  img-fluid rounded mb-4" alt="Photo by Matthew Smith"
+            sizes="(max-width: 1400px) 100vw, 1400px" srcset="
+            ./assets/img/nuove/IMG_1504_qweozb_c_scale,w_200.webp 200w,
+
+            ./assets/img/nuove/IMG_1504_qweozb_c_scale,w_443.webp 443w,
+            
+            ./assets/img/nuove/IMG_1504_qweozb_c_scale,w_613.webp 613w,
+            
+            ./assets/img/nuove/IMG_1504_qweozb_c_scale,w_778.webp 778w,
+            
+            ./assets/img/nuove/IMG_1504_qweozb_c_scale,w_867.webp 867w,
+            
+            ./assets/img/nuove/IMG_1504_qweozb_c_scale,w_963.webp 963w,
+            
+            ./assets/img/nuove/IMG_1504_qweozb_c_scale,w_1079.webp 1079w,
+            
+            ./assets/img/nuove/IMG_1504_qweozb_c_scale,w_1211.webp 1211w,
+            
+            ./assets/img/nuove/IMG_1504_qweozb_c_scale,w_1339.webp 1339w,
+            
+            ./assets/img/nuove/IMG_1504_qweozb_c_scale,w_1389.webp 1389w,
+            
+            ./assets/img/nuove/IMG_1504_qweozb_c_scale,w_1400.webp 1400w"
+            src="./assets/img/nuove/IMG_1504_qweozb_c_scale,w_1400.webp " width="1080" height="768" loading="lazy" />
+
+            <img class="w-100 animation  img-fluid rounded mb-4" alt="Photo by Matthew Smith"
+            sizes="(max-width: 1400px) 100vw, 1400px" srcset="
+            ./assets/img/nuove/IMG_1505_fiikpk_c_scale,w_200.webp 200w,
+
+            ./assets/img/nuove/IMG_1505_fiikpk_c_scale,w_480.webp 480w,
+            
+            ./assets/img/nuove/IMG_1505_fiikpk_c_scale,w_670.webp 670w,
+            
+            ./assets/img/nuove/IMG_1505_fiikpk_c_scale,w_842.webp 842w,
+            
+            ./assets/img/nuove/IMG_1505_fiikpk_c_scale,w_968.webp 968w,
+            
+            ./assets/img/nuove/IMG_1505_fiikpk_c_scale,w_1117.webp 1117w,
+            
+            ./assets/img/nuove/IMG_1505_fiikpk_c_scale,w_1282.webp 1282w,
+            
+            ./assets/img/nuove/IMG_1505_fiikpk_c_scale,w_1377.webp 1377w,
+            
+            ./assets/img/nuove/IMG_1505_fiikpk_c_scale,w_1400.webp 1400w"
+            src="./assets/img/nuove/IMG_1505_fiikpk_c_scale,w_1400.webp" width="1080" height="768" loading="lazy" />
+          </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <img class="w-100  animation  img-fluid rounded mb-4" alt="Photo by Sergei A" sizes="(max-width: 1400px) 100vw, 1400px"
+            srcset="
+            ./assets/img/Serra-145-min_zg4xz4_c_scale,w_200.webp 200w,
+            ./assets/img/Serra-145-min_zg4xz4_c_scale,w_486.webp 486w,
+            ./assets/img/Serra-145-min_zg4xz4_c_scale,w_677.webp 677w,
+            ./assets/img/Serra-145-min_zg4xz4_c_scale,w_915.webp 915w,
+            ./assets/img/Serra-145-min_zg4xz4_c_scale,w_1124.webp 1124w,
+            ./assets/img/Serra-145-min_zg4xz4_c_scale,w_1280.webp 1280w,
+            ./assets/img/Serra-145-min_zg4xz4_c_scale,w_1400.webp 1400w"
+            src="./assets/img/Serra-145-min_zg4xz4_c_scale,w_1400.webp" width="1080" height="768" loading="lazy" />
+
+          <img class="w-100 animation  img-fluid rounded mb-4" alt="Photo by Filip Zrnzević"
+            sizes="(max-width: 1400px) 100vw, 1400px" srcset="
+./assets/img/Serra-64-min_tbceyh_c_scale,w_200.webp 200w,
+./assets/img/Serra-64-min_tbceyh_c_scale,w_379.webp 379w,
+./assets/img/Serra-64-min_tbceyh_c_scale,w_471.webp 471w,
+./assets/img/Serra-64-min_tbceyh_c_scale,w_572.webp 572w,
+./assets/img/Serra-64-min_tbceyh_c_scale,w_659.webp 659w,
+./assets/img/Serra-64-min_tbceyh_c_scale,w_680.webp 680w,
+./assets/img/Serra-64-min_tbceyh_c_scale,w_934.webp 934w,
+./assets/img/Serra-64-min_tbceyh_c_scale,w_977.webp 977w,
+./assets/img/Serra-64-min_tbceyh_c_scale,w_958.webp 958w,
+./assets/img/Serra-64-min_tbceyh_c_scale,w_1020.webp 1020w,
+./assets/img/Serra-64-min_tbceyh_c_scale,w_1091.webp 1091w,
+./assets/img/Serra-64-min_tbceyh_c_scale,w_1334.webp 1334w,
+./assets/img/Serra-64-min_tbceyh_c_scale,w_1216.webp 1216w,
+./assets/img/Serra-64-min_tbceyh_c_scale,w_1275.webp 1275w,
+./assets/img/Serra-64-min_tbceyh_c_scale,w_1358.webp 1358w,
+./assets/img/Serra-64-min_tbceyh_c_scale,w_1399.webp 1399w,
+./assets/img/Serra-64-min_tbceyh_c_scale,w_1400.webp 1400w" src="./assets/img/Serra-64-min_tbceyh_c_scale,w_1400.webp"
+            width="1080" height="" loading="lazy" />
+
+        
+
+          
+          
+            <img class="w-100 animation  img-fluid rounded mb-4" alt="Photo by Federico Bottos"
+            sizes="(max-width: 1400px) 100vw, 1400px" srcset="
+            ./assets/img/nuove/DSC_8427_2_al3iw9_c_scale,w_200.webp 200w,
+
+            ./assets/img/nuove/DSC_8427_2_al3iw9_c_scale,w_383.webp 383w,
+            
+            ./assets/img/nuove/DSC_8427_2_al3iw9_c_scale,w_482.webp 482w,
+            
+            ./assets/img/nuove/DSC_8427_2_al3iw9_c_scale,w_583.webp 583w,
+            
+            ./assets/img/nuove/DSC_8427_2_al3iw9_c_scale,w_686.webp 686w,
+            
+            ./assets/img/nuove/DSC_8427_2_al3iw9_c_scale,w_769.webp 769w,
+            
+            ./assets/img/nuove/DSC_8427_2_al3iw9_c_scale,w_847.webp 847w,
+            
+            ./assets/img/nuove/DSC_8427_2_al3iw9_c_scale,w_867.webp 867w,
+            
+            ./assets/img/nuove/DSC_8427_2_al3iw9_c_scale,w_906.webp 906w,
+            
+            ./assets/img/nuove/DSC_8427_2_al3iw9_c_scale,w_969.webp 969w,
+            
+            ./assets/img/nuove/DSC_8427_2_al3iw9_c_scale,w_1031.webp 1031w,
+            
+            ./assets/img/nuove/DSC_8427_2_al3iw9_c_scale,w_1096.webp 1096w,
+            
+            ./assets/img/nuove/DSC_8427_2_al3iw9_c_scale,w_1160.webp 1160w,
+            
+            ./assets/img/nuove/DSC_8427_2_al3iw9_c_scale,w_1231.webp 1231w,
+            
+            ./assets/img/nuove/DSC_8427_2_al3iw9_c_scale,w_1298.webp 1298w,
+            
+            ./assets/img/nuove/DSC_8427_2_al3iw9_c_scale,w_1363.webp 1363w,
+            
+            ./assets/img/nuove/DSC_8427_2_al3iw9_c_scale,w_1397.webp 1397w,
+            
+            ./assets/img/nuove/DSC_8427_2_al3iw9_c_scale,w_1400.webp 1400w"
+            src="./assets/img/nuove/DSC_8427_2_al3iw9_c_scale,w_1400.webp" width="1080" height="860" loading="lazy" />
+
+            <img class="w-100 animation  img-fluid rounded mb-4" alt="Photo by Matthew Smith"
+            sizes="(max-width: 1400px) 100vw, 1400px" srcset="
+            assets/img/nuove/DSC_8543_fkq2aj_c_scale,w_200.webp 200w,
+
+            assets/img/nuove/DSC_8543_fkq2aj_c_scale,w_365.webp 365w,
+            
+            assets/img/nuove/DSC_8543_fkq2aj_c_scale,w_456.webp 456w,
+            
+            assets/img/nuove/DSC_8543_fkq2aj_c_scale,w_564.webp 564w,
+            
+            assets/img/nuove/DSC_8543_fkq2aj_c_scale,w_654.webp 654w,
+            
+            assets/img/nuove/DSC_8543_fkq2aj_c_scale,w_757.webp 757w,
+            
+            assets/img/nuove/DSC_8543_fkq2aj_c_scale,w_833.webp 833w,
+            
+            assets/img/nuove/DSC_8543_fkq2aj_c_scale,w_851.webp 851w,
+            
+            assets/img/nuove/DSC_8543_fkq2aj_c_scale,w_881.webp 881w,
+            
+            assets/img/nuove/DSC_8543_fkq2aj_c_scale,w_954.webp 954w,
+            
+            assets/img/nuove/DSC_8543_fkq2aj_c_scale,w_1023.webp 1023w,
+            
+            assets/img/nuove/DSC_8543_fkq2aj_c_scale,w_1245.webp 1245w,
+            
+            assets/img/nuove/DSC_8543_fkq2aj_c_scale,w_1316.webp 1316w,
+            
+            assets/img/nuove/DSC_8543_fkq2aj_c_scale,w_1364.webp 1364w,
+            
+            assets/img/nuove/DSC_8543_fkq2aj_c_scale,w_1383.webp 1383w,
+            
+            assets/img/nuove/DSC_8543_fkq2aj_c_scale,w_1400.webp 1400w"
+            src="assets/img/nuove/DSC_8543_fkq2aj_c_scale,w_1400.webp" width="1080" height="768" loading="lazy" />
+          </div>
+
+          
+      </div>
+    </div>
+  </div>
+
+  <div id="contatti" class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <div class="lc-block mb-4">
+          <div class="ratio ratio-4x3 min-vh-50" lc-helper="gmap-embed">
+            <div style="width: 100%"><iframe title="la serra eventi" width="100%" height="100%" frameborder="0"
+                scrolling="no" marginheight="0" marginwidth="0"
+                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=NATURA%20E%20ARCHITETTURA%20-%20VIA%20DI%20VILLA%20SENNI,%20SNC,%2000046%20-%20GROTTAFERRATA+(la%20serra%20eventi)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+                  href="https://www.gps.ie/">gps trackers</a></iframe></div>
+          </div>
+        </div><!-- /lc-block -->
+      </div><!-- /col -->
+      <div class="col-md-6 ">
+        <div class="lc-block mb-4">
+          <div editable="rich">
+            <h2 class="display-6 fw-bolder serif green-text">Contatti<p></p>
+              <p></p>
+            </h2>
+          </div>
+        </div>
+        <div class="lc-block mb-4 my-4">
+
+          <div class="row">
+            <div class="col-xl-4 mb-xl-0">
+              <div class="d-inline-flex">
+
+                <div class=" align-self-center me-3" editable="rich">
+                  <a class="button-23" aria-label="inivia email" role="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                      viewBox="0 0 16 16" lc-helper="svg-icon">
+                      <path
+                        d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z">
+                      </path>
+                    </svg>
+                  </a>
+                </div>
+
+
+                <div class=" align-self-center" editable="rich">
+                  <a class="button-23" role="button" aria-label="chiama"><svg xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24"
+                      viewBox="0 0 24 24" lc-helper="svg-icon" fill="currentColor">
+                      <path
+                        d="M13 17H17V14L22 18.5L17 23V20H13V17M20 4H4A2 2 0 0 0 2 6V18A2 2 0 0 0 4 20H11V18H4V8L12 13L20 8V14H22V6A2 2 0 0 0 20 4M12 11L4 6H20Z">
+                      </path>
+                    </svg></a><!-- /lc-block -->
+                </div>
+              </div><!-- /lc-block -->
+            </div><!-- /col -->
+          </div>
+
+
+        </div>
+        <div class="lc-block mb-4">
+          <div editable="rich">
+            <p>Contattaci subito per prenotare la nostra location esclusiva e trasformare la tua idea in realtà</p>
+          </div>
+        </div><!-- /lc-block -->
+      </div><!-- /col -->
+    </div>
+    
+  </div>
+
+  <section class="py-3 py-md-5">
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+          <h2 class="mb-4 display-5 text-center serif green-text">Scrivici ora</h2>
+          <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-lg-center">
+        <div class="col-12 col-lg-9">
+          <div class="bg-white border rounded shadow-sm overflow-hidden">
+  
+            <form action="#!">
+              <div class="row gy-4 gy-xl-5 p-4 p-xl-5">
+                <div class="col-12">
+                  <label for="fullname" class="form-label">Nome completo <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="fullname" name="fullname" value="" required>
+                </div>
+                <div class="col-12 col-md-6">
+                  <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
+                  <div class="input-group">
+                    <span class="input-group-text">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                      </svg>
+                    </span>
+                    <input type="email" class="form-control" id="email" name="email" value="" required>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <label for="phone" class="form-label">Numero di telefono</label>
+                  <div class="input-group">
+                    <span class="input-group-text">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                        <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                      </svg>
+                    </span>
+                    <input type="tel" class="form-control" id="phone" name="phone" value="">
+                  </div>
+                </div>
+                <div class="col-12">
+                  <label for="message" class="form-label">Messagio <span class="text-danger">*</span></label>
+                  <textarea class="form-control my-3" id="message" name="message" rows="3" required></textarea>
+                </div>
+                <div class="col-12">
+                  <div class="d-grid">
+                    <button class="button-23 btn-lg" type="submit">Invia</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+  
+          </div>
+        </div>
+      </div>
+
+  <section>
+    <div class="container d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <div class="lc-block text-center mb-3 mb-md-0">
+          <a class="navbar-brand" role="link" aria-label="visita la home" href="#home">
+            <img class="img-fluid" width="84" height="64" sizes="(max-width: 1400px) 100vw, 1400px" srcset="
+            ./assets/img/logo-min_dh7dji_c_scale,w_200.png 200w,
+            ./assets/img/logo-min_dh7dji_c_scale,w_993.png 993w,
+            ./assets/img/logo-min_dh7dji_c_scale,w_1400.png 1400w"
+              src="./assets/img/logo-min_dh7dji_c_scale,w_1400.png" alt="" />
+          </a>
+
+          <span editable="inline" class="text-muted">© 2024 LA SERRA EVENTI GREEN</span>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+
+  </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="./assets/js/onEntry.js"></script>
+<script src="./assets/js/slideShow.js"></script>
+</html>
